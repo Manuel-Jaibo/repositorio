@@ -1,0 +1,38 @@
+@import './global';
+@import './header';
+@import './section';
+
+.blog{
+    background-color: $white;
+    width: 100%;
+    padding: 30px;
+
+     // anidación
+    .title {
+        @extend %base-title
+    }
+}
+
+.process{
+    margin-bottom: 30px;
+    & > div {
+        & > h3 {
+            color: red;
+            font-size: $font-title;
+        }
+        & > p {
+        color: $dark-green-text;
+        margin:0;
+        }
+    }
+
+    .process-icon {
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+        text-align: center;
+      img {
+          height: 100%;
+      }
+    }
+}
