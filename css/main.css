@@ -2,12 +2,12 @@
 /** fuentes */
 .blog .title {
   font-family: "Alegreya", serif;
-  color: red;
+  color: blue;
   display: flex;
   font-size: 30px; }
 
 .blog {
-  background-color: #dbdbdb;
+  background-color: white;
   width: 100%;
   padding: 30px; }
 
@@ -17,7 +17,7 @@
     color: red;
     font-size: "Alegreya", serif; }
   .process > div > p {
-    color: #135359;
+    color: purple;
     margin: 0; }
   .process .process-icon {
     width: 60px;
